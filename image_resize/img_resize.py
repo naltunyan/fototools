@@ -53,3 +53,5 @@ for file in files:
         img.save(target_file_name, exif=exif)
 
         print('File',target_file_name,'successfully saved with size',str(img.size[0]),'*',str(target_height))
+
+#
